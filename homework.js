@@ -238,10 +238,10 @@ document.getElementById("num2").onchange = function() { sumOfTwo() };
 
 
 function sumOfTwo() {
-    let n1 = document.getElementById("num1").value;
-    let n2 = document.getElementById("num2").vaule;
-    if (n1 && n2) {
-        document.getElementById('sum').innerHTML = `${Number(n1) + Number(n2)}`;
+    let x = document.getElementById("num1").value;
+    let y = document.getElementById("num2").vaule;
+    if (x && y) {
+        document.getElementById('sum').innerHTML = `${Number(x) + Number(y)}`;
     }
 }
 
@@ -281,4 +281,4 @@ function currentTime() {
     document.getElementById('currentTime').innerHTML = h + ":" + m + ":" + s;
 }
 
-window.setInterval(function() { currentTime(); }, 1000);
+window.setInterval(function() { currentTime(); }, 1000);s
